@@ -27,3 +27,22 @@
     color: #778899 ;
     padding-top: 2%;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .Project{
+        padding:0%
+    }
+    .project-style {
+      display: inline-block;
+      margin: 0 1% 0 1%;
+      padding:5px;
+      border: 1px solid #FA8072;
+      border-radius: 10px;
+    }
+    .project-description{
+        font-size: 10px;
+        color: #778899 ;
+        padding-top: 1%;
+    }
+  }
