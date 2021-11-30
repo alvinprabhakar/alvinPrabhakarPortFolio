@@ -1,0 +1,29 @@
+.project-heading{
+    color: #4CCCDD;
+    text-align: center;
+}
+
+.Project{
+    padding: 3%;  
+}
+
+.project-style{
+    margin: 0 10% 0 10%;
+    padding: 20px;
+    color:#FFFACD;
+    border: 2px solid #FA8072;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly; 
+    transition: all 2s ease;
+}:hover{
+    border: none;
+    
+}
+
+
+.project-description{
+    font-size: 20px;
+    color: #778899 ;
+    padding-top: 2%;
+}

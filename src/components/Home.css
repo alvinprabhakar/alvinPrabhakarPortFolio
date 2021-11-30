@@ -1,0 +1,56 @@
+.homepage-color{
+    background-color: #211F1F;
+}
+
+.Home{
+    padding: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.about-image{
+
+}
+
+.about-greeting{
+    font-size: 30px;
+    color: #4CCCDD ;
+}
+.about-name{
+    font-size: 60px;
+    color:#DDEDEF;
+}
+
+.about-designation{
+    font-size: 40px;
+    color: #EE9999;
+}
+
+.about-description{
+    font-size: 20px;
+    color: #778899;
+}
+
+.about-description-2{
+    font-size: 20px;
+    color: #778899;
+}
+
+.about-social{
+    margin: auto;
+    display: flex;
+    gap: 2%;
+    
+}
+
+.about-gmail{
+    color: #4CCCDD ;
+}
+
+
+span{
+    font-style: italic;
+    color: #EE9999;
+}
+

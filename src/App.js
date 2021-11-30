@@ -1,24 +1,56 @@
-import logo from './logo.svg';
+//import {BrowserRouter, Routes , Route} from 'react-router-dom';
+import resume from './Resume/prabharesume.pdf';
+import { saveAs } from "file-saver";
+
+//import Link from '@material-ui/core/Link';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contacts from './components/Contacts';
+import 'bootstrap/dist/css/bootstrap.min.css';  
 import './App.css';
 
 function App() {
+
+  const saveFile = () => {
+    saveAs(
+      resume,
+      "PrabhaResume.pdf"
+    );
+  };
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    {/* <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+      </Routes>
+    </BrowserRouter> */}
+    {/* <Navbar expand="lg" bg="dark" variant="dark">
+    <Container>
+    <Nav className="me-auto">
+    <Navbar.Brand href="#home">PK</Navbar.Brand>
+    </Nav>
+
+    <Nav >
+      
+      <Nav.Link href="#" component={About}>About</Nav.Link>
+      <Nav.Link href="#" component={Projects}>Projects</Nav.Link>
+      <Nav.Link href="#" component={Contacts}>Contacts</Nav.Link>
+      <Nav.Link href="#pricing">Resume</Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar> */}
+    <div className="homepage-color">
+      <button className="custom-btn" onClick={saveFile} >Resume</button>
     </div>
+    <Home />
+    <About />
+    <Projects />
+    <Contacts />
+
+    
+    </>
   );
 }
 

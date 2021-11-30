@@ -1,0 +1,20 @@
+.final-social{
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    
+}
+
+.contact-text{
+    color: #4CCCDD ;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.contact-owner{
+    color: #EE9999; ;
+    text-align: center;
+    padding: 1%
+}
