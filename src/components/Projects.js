@@ -4,6 +4,7 @@ import vcf from '../Images/vcf.png';
 import crud from '../Images/crud.png';
 import "../components/Projects.css";
 import {Image} from 'react-bootstrap';
+import { BoxArrowUpRight } from 'react-bootstrap-icons';
 
 function Projects(){
 
@@ -20,8 +21,12 @@ function Projects(){
                             <h3 className="project-title" >Order Management - Website</h3>
                             <p className="project-description">Order management is helping to keep track of customer's orders.<br />
                                 My role was to design and develop the entire website and <br />
-                                also create a backend REST APIservice using Node JS and MongoDB.
+                                also create a backend REST APIservice using Node JS and MongoDB. 
                             </p>
+                            <a className="project-link" 
+                                href="https://alvinprabhakar-ordermanagement.netlify.app"><BoxArrowUpRight size={25}  />
+                            </a>
+                            
                             </div>
                             <div className="project-image">
                             <Image src={oms}  rounded width={400}
@@ -43,6 +48,9 @@ function Projects(){
                              for the web app. My role was to design and develop the entire website and <br />
                                 also create a backend REST APIservice using Node JS and MongoDB.
                             </p>
+                            <a className="project-link" 
+                                href="https://alvinprabhakar-passwordreset.netlify.app"><BoxArrowUpRight size={25}  />
+                            </a>
                             </div>
                     </div>
                 </div>
@@ -55,6 +63,9 @@ function Projects(){
                             HLS(m3u8) video file using Electron JS and FFMPEG plugin. <br />
                                 My role was to design and develop the entire website<br />
                             </p>
+                            <a className="project-link" 
+                                href="https://alvinprabhakar-videoconverter.netlify.app"><BoxArrowUpRight size={25}  />
+                            </a>
                             </div>
                             <div className="project-image">
                             <Image src={vcf}  rounded width={400}
@@ -63,7 +74,7 @@ function Projects(){
                     </div>
                 </div>
 
-                <div className="Project">
+                {/* <div className="Project">
                     <div className="project-style">
                             <div className="project-image">
                             <Image src={crud}  rounded width={400}
@@ -77,7 +88,7 @@ function Projects(){
                             </p>
                             </div>
                     </div>
-                </div>
+                </div> */}
 
 
 

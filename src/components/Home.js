@@ -38,8 +38,6 @@ return (
       <SocialIcon url="https://www.linkedin.com/in/prabhakaran-krishnan-a51579156/" bgColor="silver"/>
       <SocialIcon network="twitter" url="https://www.linkedin.com/in/prabhakaran-krishnan-a51579156/" bgColor="silver"/>
       <SocialIcon network="github" url="https://github.com/alvinprabhakar" bgColor="silver"/>
-      <SocialIcon network="facebook" url="https://www.facebook.com/prbhkaran.slm" bgColor="silver"/>
-      <SocialIcon network="instagram" url="https://www.instagram.com/alvinprabhakartest1/" bgColor="silver"/>
   </div>
   </div>
 

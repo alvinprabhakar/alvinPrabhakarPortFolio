@@ -21,8 +21,9 @@ function About(){
 
                 <div className="about-skills">
                     <h3 className="about-skillsheading">Skills</h3>
-                    <p className="about-skillsdesc">I love to learn new things and experiment with new technologies.<br/>
-                    Below are the few skills that I use on regular basis to create new projects on the web</p>
+                    {/* <p className="about-skillsdesc">I love to learn new things and experiment with new technologies.<br/>
+                    Below are the few skills that I use on regular basis to create new projects on the web</p> */}
+                    <p className="about-skillsdesc">Below are the few skills that I use on regular basis to create new projects on the web</p>
                     <div >
                         <div className="skill-list">
                         <p className="skill-style">HTML</p>
