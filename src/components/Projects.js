@@ -1,7 +1,7 @@
 import oms from '../Images/oms.png';
 import prf from '../Images/prf.png';
 import vcf from '../Images/vcf.png';
-import crud from '../Images/crud.png';
+//import crud from '../Images/crud.png';
 import "../components/Projects.css";
 import {Image} from 'react-bootstrap';
 import { BoxArrowUpRight } from 'react-bootstrap-icons';
