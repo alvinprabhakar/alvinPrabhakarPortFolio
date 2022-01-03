@@ -1,6 +1,7 @@
 import oms from '../Images/oms.png';
 import prf from '../Images/prf.png';
-import vcf from '../Images/vcf.png';
+import chs from '../Images/churchstore.png'
+//import vcf from '../Images/vcf.png';
 //import crud from '../Images/crud.png';
 import "../components/Projects.css";
 import {Image} from 'react-bootstrap';
@@ -17,6 +18,10 @@ function Projects(){
 
                 <div className="Project">
                     <div className="project-style">
+                    <div className="project-image">
+                            <Image src={oms}  rounded width={400}
+                                    height={200} className="about-image" />
+                            </div>
                             <div className="project-words">
                             <h3 className="project-title" >Order Management - Website</h3>
                             <p className="project-description">Order management is helping to keep track of customer's orders.<br />
@@ -28,10 +33,7 @@ function Projects(){
                             </a>
                             
                             </div>
-                            <div className="project-image">
-                            <Image src={oms}  rounded width={400}
-                                    height={200} className="about-image" />
-                            </div>
+                            
                     </div>
                 </div>
 
@@ -57,6 +59,25 @@ function Projects(){
 
                 <div className="Project">
                     <div className="project-style">
+                            <div className="project-image">
+                            <Image src={chs}  rounded width={400}
+                                    height={200} className="about-image" />
+                            </div>
+                            <div className="project-words">
+                            <h3 className="project-title" >Church Store - Website</h3>
+                            <p className="project-description">Church store is online platform for christian products.<br />
+                              My role was to design and develop the entire website and <br />
+                              also create a backend REST APIservice using Node JS and MongoDB.
+                            </p>
+                            <a className="project-link" 
+                                href="http://alvinprabhakar-churchstore.herokuapp.com/"><BoxArrowUpRight size={25}  />
+                            </a>
+                            </div>
+                    </div>
+                </div>
+
+                {/*<div className="Project">
+                    <div className="project-style">
                             <div className="project-words">
                             <h3 className="project-title" >Video Format Converter - Website</h3>
                             <p className="project-description">This Website helps to convert a mp4 video file to <br />
@@ -74,7 +95,7 @@ function Projects(){
                     </div>
                 </div>
 
-                {/* <div className="Project">
+                 <div className="Project">
                     <div className="project-style">
                             <div className="project-image">
                             <Image src={crud}  rounded width={400}
