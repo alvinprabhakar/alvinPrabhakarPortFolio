@@ -1,6 +1,6 @@
 //import {BrowserRouter, Routes , Route} from 'react-router-dom';
-import resume from './Resume/prabharesume.pdf';
-import { saveAs } from "file-saver";
+// import resume from './Resume/prabharesume.pdf';
+// import { saveAs } from "file-saver";
 
 //import Link from '@material-ui/core/Link';
 import Home from './components/Home';
