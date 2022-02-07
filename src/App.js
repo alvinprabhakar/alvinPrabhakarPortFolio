@@ -48,9 +48,10 @@ function App() {
       <Nav.Link href="#" component={Contacts}>Contacts</Nav.Link>
       <Nav.Link href="#pricing">Resume</Nav.Link>
     </Nav> */}
-    <div className="homepage-color">
-      <button className="custom-btn" onClick={saveFile} >Resume</button>
-    </div>
+    {/* <div className="homepage-color">
+      <button className="custom-btn"><a href="https://docs.google.com/document/d/1meWBcaK_9tBktmIh1kEZGzWw4NnKfgVc/edit?usp=sharing&ouid=115219272609269324379&rtpof=true&sd=true" target="_blank">
+        Resume</a></button>  
+     </div> */}
     <Home />
     <About />
     <Projects />

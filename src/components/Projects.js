@@ -29,7 +29,7 @@ function Projects(){
                                 also create a backend REST APIservice using Node JS and MongoDB. 
                             </p>
                             <a className="project-link" 
-                                href="https://alvinprabhakar-ordermanagement.netlify.app"><BoxArrowUpRight size={25}  />
+                                href="https://alvinprabhakar-ordermanagement.netlify.app" target="_blank"><BoxArrowUpRight size={25}  />
                             </a>
                             
                             </div>
@@ -51,7 +51,7 @@ function Projects(){
                                 also create a backend REST APIservice using Node JS and MongoDB.
                             </p>
                             <a className="project-link" 
-                                href="https://alvinprabhakar-passwordreset.netlify.app"><BoxArrowUpRight size={25}  />
+                                href="https://alvinprabhakar-passwordreset.netlify.app" target="_blank"><BoxArrowUpRight size={25}  />
                             </a>
                             </div>
                     </div>
@@ -70,7 +70,7 @@ function Projects(){
                               also create a backend REST APIservice using Node JS and MongoDB.
                             </p>
                             <a className="project-link" 
-                                href="http://alvinprabhakar-churchstore.herokuapp.com/"><BoxArrowUpRight size={25}  />
+                                href="http://alvinprabhakar-churchstore.herokuapp.com/" target="_blank"><BoxArrowUpRight size={25}  />
                             </a>
                             </div>
                     </div>
